@@ -7,8 +7,11 @@ Autore: Marco Giangreco, 1938091
 
 **Svolgimento:**
 
-1. Per prima cosa, è necessario scaricare il dataset OSCD - ONERA SATELLITE CHANGE DETECTION utilizzando i mirrors forniti sul sito ufficiale del dataset.
-2. Utilizzare le immagini in imgs_1_rect e imgs_2_rect per ogni area.
+1. Per prima cosa, è necessario scaricare il dataset OSCD - ONERA SATELLITE CHANGE DETECTION utilizzando i seguenti mirrors:
+   - Onera Satellite Change Detection dataset - Images;
+   - Onera Satellite Change Detection dataset - Train Labels;
+   - Onera Satellite Change Detection dataset - Test Labels.
+2. Utilizzare le immagini in imgs_1_rect e imgs_2_rect, che si trovano nella directory "Onera Satellite Change Detection dataset - Images", dove le immagini presenti in "imgs_1_rect" rappresentano l'immagine acquisita prima della modifica, mentre quelle presenti in "imgs_2_rect" rappresentano l'immagine acquisita dopo la modifica.
 3. Creare una classe per il tuo dataset utilizzando PyTorch e visualizzare l'output del dataloader per verificare che funzioni correttamente.
 4. Utilizzare i codici che ha fornito per calcolare gli indici spettrali.
 5. Creare il tuo modello U-Net e addestralo utilizzando il dataset di train.
