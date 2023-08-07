@@ -21,7 +21,6 @@ Autore: Marco Giangreco, 1938091
 
 
 **Parti mancanti:**
-1. Data augmentation sulle due immagini e la label (vedi init di ChangeDetectionDataset, get_item di ChangeDetectionDataset)
-2. Utilizzare precision, recall, F1-score e accuracy del positivo (true positive/ no class)
-3. La funzione test che testa ogni epoca la faccio nella validation
-4. Fare il confronto delle prestazioni con e senza bilanciamento (se va meglio con il bilanciamento fare tutto così)
+1. Utilizzare precision, recall, F1-score e accuracy del positivo (true positive/ no class)
+2. La funzione test che testa ogni epoca la faccio nella validation
+3. Fare il confronto delle prestazioni con e senza bilanciamento (se va meglio con il bilanciamento fare tutto così)
