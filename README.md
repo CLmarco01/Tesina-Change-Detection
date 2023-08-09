@@ -18,8 +18,3 @@ Autore: Marco Giangreco, 1938091
 5. Creare il tuo modello U-Net e addestralo utilizzando il dataset di train.
 6. Utilizza precision, recall ed F1-score come metriche per valutare il modello.
 7. Per migliorare le prestazioni del modello, puoi provare a bilanciare la loss passando il parametro pos_weight alla BCEWithLogitsLoss, utilizzare data augmentation, utilizzare la Focal Loss e salvare i checkpoint ogni epoca per evitare di perdere i dati in caso di disconnessione.
-
-
-**Parti mancanti:**
-1. La funzione test che testa ogni epoca la faccio nella validation
-2. Fare il confronto delle prestazioni con e senza bilanciamento (se va meglio con il bilanciamento fare tutto così)
