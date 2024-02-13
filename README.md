@@ -1,4 +1,5 @@
 # Tesina-Change-Detection
+Nome della tesi: Rilevazione dei cambiamenti utilizzando U-Net: un approccio basato sugli indici spettrali
 Autore: Marco Giangreco, mat. 1938091
 
 **Link utili**
